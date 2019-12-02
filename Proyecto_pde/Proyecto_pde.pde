@@ -1,4 +1,4 @@
-Casa  casa12,casa11,casa10,casa9,casa8,casa7,casa6,casa5,casa4,casa3,casa2,casa1;
+Casa  casa13,casa12,casa11,casa10,casa9,casa8,casa7,casa6,casa5,casa4,casa3,casa2,casa1;
 Eje eje;
 
 void setup(){
@@ -16,6 +16,7 @@ size(512,512
   casa10=new Casa("10.obj");
   casa11=new Casa("11.obj");
   casa12=new Casa("12.obj");
+  casa13=new Casa("13.obj");
    eje = new Eje();
 }
 
@@ -120,7 +121,7 @@ void draw(){
  for(int k =-5; k< 6; k++) {
     pushMatrix();
       translate(k*9,0,52);
-      casa1.Dibujar();
+      casa13.Dibujar();
     popMatrix();
   }
 
