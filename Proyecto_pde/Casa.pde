@@ -5,8 +5,12 @@ class Casa {
   }
 
   void Dibujar() {
+    
+    
+    
+    
    
-    scale(0.4);
+    scale(0.45);
     pushMatrix();
     rotateX(radians(90));
     pushMatrix();
@@ -16,7 +20,7 @@ class Casa {
     popMatrix();
   }
   void DibujarInversa(){
-    scale(0.4);
+    scale(0.45);
     pushMatrix();
     rotateX(radians(90));
     pushMatrix();
