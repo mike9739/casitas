@@ -1,7 +1,7 @@
 //se declaran las variables globales para crear las casas
 Casa  casa13, casa12, casa11, casa10, casa9, casa8, casa7_3, casa7_2, casa7_1, casa6, casa5, casa4, casa3, casa2, casa1;
 Eje eje;
-
+float x = 100;
 void setup() {
   //se fija el tamaño del lienzo
   size(512, 512
@@ -29,7 +29,7 @@ void setup() {
 
 void draw() {
   //setup de la camara sobre el eje Y
-  camera(0, 100, 0, 
+  camera(0, x, 0, 
     0, 0, 0, 
     0, 0, -1);
   //background(175,97,58);
