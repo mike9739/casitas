@@ -29,6 +29,36 @@ class Casa {
     popMatrix();
     popMatrix();
   }
+    void DibujarInversa_abajo(){
+    scale(0.45);
+    pushMatrix();
+    rotateX(radians(90));
+    pushMatrix();
+    rotateY(radians(-160));
+    shape(casa);
+    popMatrix();
+    popMatrix();
+  }
   
+    void DibujarInversa_derecha(){
+    scale(0.45);
+    pushMatrix();
+    rotateX(radians(90));
+    pushMatrix();
+    rotateY(radians(-130));
+    shape(casa);
+    popMatrix();
+    popMatrix();
+  }
+     void DibujarInversa_izquierda(){
+    scale(0.45);
+    pushMatrix();
+    rotateX(radians(90));
+    pushMatrix();
+    rotateY(radians(-70));
+    shape(casa);
+    popMatrix();
+    popMatrix();
+  }
   
 }

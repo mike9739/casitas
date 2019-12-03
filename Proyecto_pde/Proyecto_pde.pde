@@ -58,14 +58,14 @@ void draw() {
   for (int k =-5; k< 6; k++) {
     pushMatrix();
     translate(k*9, 0, -28);
-    casa4.DibujarInversa();
+    casa4.DibujarInversa_izquierda();
     popMatrix();
   }
   //FILA 5
   for (int k =-5; k< 6; k++) {
     pushMatrix();
     translate(k*9, 0, -20);
-    casa5.Dibujar();
+    casa5.DibujarInversa_derecha();
     popMatrix();
   }
   //FILA 6
@@ -165,7 +165,7 @@ void draw() {
   for (int k =-5; k< 6; k++) {
     pushMatrix();
     translate(k*9, 0, 52);
-    casa13.DibujarInversa();
+    casa13.DibujarInversa_abajo();
     popMatrix();
   }
   //lineas de division
