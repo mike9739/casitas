@@ -1,4 +1,5 @@
 class Casa {
+  //se carga la casa
   PShape casa;
   Casa(String nombre) {
   casa = loadShape(nombre);
@@ -9,7 +10,7 @@ class Casa {
     
     
     
-   
+   //escalar la figura a 0.45 tamaño
     scale(0.45);
     pushMatrix();
     rotateX(radians(90));

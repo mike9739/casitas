@@ -1,9 +1,12 @@
+//se declaran las variables globales para crear las casas
 Casa  casa13, casa12, casa11, casa10, casa9, casa8, casa7_3, casa7_2, casa7_1, casa6, casa5, casa4, casa3, casa2, casa1;
 Eje eje;
 
 void setup() {
+  //se fija el tamaño del lienzo
   size(512, 512
     , P3D);
+    //se crean las instancias de las variables
   casa1=new Casa("1.obj");
   casa2=new Casa("2.obj");
   casa3=new Casa("3.obj");
@@ -25,11 +28,12 @@ void setup() {
 
 
 void draw() {
+  //setup de la camara sobre el eje Y
   camera(0, 100, 0, 
     0, 0, 0, 
     0, 0, -1);
   //background(175,97,58);
-  background(240);
+  background(#F5F5DC);
   //FILA 1
   for (int k =-5; k< 6; k++) {
     pushMatrix();
